@@ -44,7 +44,7 @@ class Slugify implements SlugifyInterface
     protected $options = [
         'regexp'    => self::LOWERCASE_NUMBERS_DASHES,
         'separator' => '-',
-        'lowercase' => true,
+        'lowercase' => false,
         'lowercase_after_regexp' => false,
         'trim' => true,
         'strip_tags' => false,
